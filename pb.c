@@ -5,21 +5,32 @@
 #define LUCKY_NUMBER 7
 #define MAX_WHITE_BALL 59
 #define MAX_POWER_BALL 39
-
+static int my_sort_func(const void* p1, const void* p2)
+{
+int v1 = *((int *) p1);
+int v2 = *((int *) p2);
+if (v1 < v2)
+{
+return -1;
+}
+else if (v1 > v2)
+{
+return 1;
+}
+else
+{
+return 0;
+}
+}
 int calculate_result(int white_balls[5], int power_ball)
 {
-  for (int i=0; i<5; i++)
-    {
-      if ((white_balls[i] < 1) || (white_balls[i] > MAX_WHITE_BALL))
-	{
-	  return -1;
-	}
-    }
-  if ((power_ball < 1) || (power_ball > MAX_POWER_BALL))
-    {
-      return -1;
-    }
-  return 0;
+for (int i=0; i<5; i++)
+{
+...
+return -1;
+}
+qsort(white_balls, 5, sizeof(int), my_sort_func);
+return 0;
 }
 
 int main(int argc, char** argv)
