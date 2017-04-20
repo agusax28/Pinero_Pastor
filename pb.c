@@ -26,7 +26,7 @@ int calculate_result(int white_balls[5], int power_ball)
 {
 for (int i=0; i<5; i++)
 {
-...
+//...
 return -1;
 }
 qsort(white_balls, 5, sizeof(int), my_sort_func);
@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 {
 	int balls[6];
 	int count_balls = 0;
-	int favorite = 0;
+	int favorite = 0; //this should be a bool
 
 	for (int i=1; i<argc; i++)
 	{
