@@ -92,7 +92,7 @@ int main(int argc, char** argv)
 	}
 
 	printf("%d percent chance of winning\n", result);
-
+	//OTRO COMENTARIO
 	return 0;
 
 usage_error:
