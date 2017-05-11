@@ -38,6 +38,8 @@ qsort(white_balls, 5, sizeof(int), my_sort_func);
 return 0;
 }
 
+//Funcion showing_results
+
 int main(int argc, char** argv)
 {
 	int balls[6];
