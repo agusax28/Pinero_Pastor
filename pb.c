@@ -8,7 +8,7 @@
 #define MAX_POWER_BALL 39
 
 %cambiado por alumno 3 en apartado 6
-//Git avanzado alum 4
+//aaaGit avanzadoffff alum 4 Pues edito de nuevo
 
 static int my_sort_func(const void* p1, const void* p2)
 {
@@ -37,6 +37,8 @@ return -1;
 qsort(white_balls, 5, sizeof(int), my_sort_func);
 return 0;
 }
+
+//Funcion showing_results
 
 int main(int argc, char** argv)
 {
@@ -96,7 +98,7 @@ int main(int argc, char** argv)
 	}
 
 	printf("%d percent chance of winning\n", result);
-	//OTRO COMENTARIO
+	//655858//OTRO COMENTARIOffff
 	return 0;
 
 usage_error:
