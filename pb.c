@@ -8,7 +8,7 @@
 #define MAX_POWER_BALL 39
 
 %cambiado por alumno 3 en apartado 6
-//Git avanzado alum 4
+//aaaGit avanzadoffff alum 4
 
 static int my_sort_func(const void* p1, const void* p2)
 {
@@ -96,7 +96,7 @@ int main(int argc, char** argv)
 	}
 
 	printf("%d percent chance of winning\n", result);
-	//OTRO COMENTARIO
+	//655858//OTRO COMENTARIOffff
 	return 0;
 
 usage_error:
