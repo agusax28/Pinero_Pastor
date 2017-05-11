@@ -6,6 +6,10 @@
 #define LUCKY_NUMBER 7
 #define MAX_WHITE_BALL 59
 #define MAX_POWER_BALL 39
+
+%cambiado por alumno 3 en apartado 6
+
+
 static int my_sort_func(const void* p1, const void* p2)
 {
 int v1 = *((int *) p1);
