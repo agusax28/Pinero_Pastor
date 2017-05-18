@@ -7,9 +7,13 @@
 #define MAX_WHITE_BALL 59
 #define MAX_POWER_BALL 39
 
-%cambiado por alumno 3 en apartado 6
+//cambiado por alumno 3 en apartado 6
 //aaaGit avanzadoffff alum 4 Pues edito de nuevo
+<<<<<<< HEAD
 //asdasd
+=======
+//cambiado por alumno 3 en apartado 9
+>>>>>>> b089a99f1484022bb4665767c9536c3da75dbc15
 
 static int my_sort_func(const void* p1, const void* p2)
 {
