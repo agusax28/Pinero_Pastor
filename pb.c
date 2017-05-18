@@ -37,6 +37,9 @@ else
 return 0;
 }
 }
+
+//Alumno 3 "Output para  los números del usuario"
+
 int calculate_result(int white_balls[5], int power_ball)
 {
 for (int i=0; i<5; i++)
