@@ -17,8 +17,8 @@
 
 static int my_sort_func(const void* p1, const void* p2)
 {
-int v1 = *((int *) p1);
-int v2 = *((int *) p2);
+int v1 = *((int *) p1);ejer12
+int v2 = *((int *) p2);ejer12
 if (v1 < v2)
 {
 return -1;
