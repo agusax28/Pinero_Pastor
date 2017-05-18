@@ -101,6 +101,8 @@ int main(int argc, char** argv)
 	//655858//OTRO COMENTARIOffff
 	return 0;
 
+//Cambios en el ejercicio 11 por el alumno 1(2)
+
 usage_error:
 	fprintf(stderr, "Usage: %s [-favorite] (5 white balls)
 power_ball\n", argv[0]);
