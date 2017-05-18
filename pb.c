@@ -50,6 +50,7 @@ return -1;
 qsort(white_balls, 5, sizeof(int), my_sort_func);
 return 0;
 }
+//Alumno 3 "Comentarios"
 
 //Funcion showing_results
 
@@ -94,6 +95,7 @@ int main(int argc, char** argv)
 	int power_ball = balls[5];
 
 	int result = calculate_result(balls, power_ball);
+
 
 	if (result < 0)
 	{
