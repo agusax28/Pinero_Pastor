@@ -11,6 +11,15 @@
 //aaaGit avanzadoffff alum 4 Pues edito de nuevo
 //cambiado por alumno 3 en apartado 9
 
+
+
+//Alumno 3 "Ordenando los números de la lotería"
+
+//Alumno 3 "Output para  los números del usuario"
+
+//Alumno 3 "Comentarios"
+
+
 static int my_sort_func(const void* p1, const void* p2)
 {
 int v1 = *((int *) p1);
