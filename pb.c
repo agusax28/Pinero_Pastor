@@ -7,15 +7,20 @@
 #define MAX_WHITE_BALL 59
 #define MAX_POWER_BALL 39
 
-%cambiado por alumno 3 en apartado 6
+//cambiado por alumno 3 en apartado 6
 //aaaGit avanzadoffff alum 4 Pues edito de nuevo
+<<<<<<< HEAD
+//asdasd
+=======
+//cambiado por alumno 3 en apartado 9
+>>>>>>> b089a99f1484022bb4665767c9536c3da75dbc15
 
 static int my_sort_func(const void* p1, const void* p2)
 {
-int v1 = *((int *) p1);
-int v2 = *((int *) p2);
-if (v1 < v2)
-{
+int v1 = *((int *) p1);ejer12
+int v2 = *((int *) p2);ejer12
+if (v1 < v2)ejer12 2ª parterr
+{ejer12 2ª parterr
 return -1;
 }asdasd
 else if (v1 > v2)asdsad
